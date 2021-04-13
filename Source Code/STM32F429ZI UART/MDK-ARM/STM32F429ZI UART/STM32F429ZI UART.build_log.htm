@@ -1,0 +1,362 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Harry Huynh, Harry-Huynh, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hoahu\OneDrive\Documents\GitHub\STM32 UART Communication\Source Code\STM32F429ZI UART\MDK-ARM\STM32F429ZI UART.uvprojx
+Project File Date:  04/11/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32F429ZI UART'
+compiling main.c...
+../Core/Src/main.c(7): warning:  #9-D: nested comment is not allowed
+  /*Info
+../Core/Src/main.c(176): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  		RX_int = (int)strtol(RX_buffer_temp, &endptr, 10);
+../Core/Src/main.c(388): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, RS, 0);
+../Core/Src/main.c(393): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(395): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(396): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(397): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(398): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 1);
+../Core/Src/main.c(400): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(403): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(405): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(406): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(407): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(408): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 1);
+../Core/Src/main.c(410): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(413): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(415): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(416): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(417): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(418): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 1);
+../Core/Src/main.c(420): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(423): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(425): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(426): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(427): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(428): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(430): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(433): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(435): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(436): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(437): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(438): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(440): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(443): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(445): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 1);
+../Core/Src/main.c(446): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(447): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(448): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(450): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(453): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(455): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(456): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(457): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(458): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(460): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(463): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(465): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 1);
+../Core/Src/main.c(466): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(467): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(468): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(470): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(473): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(475): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(476): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(477): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(478): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(480): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(483): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(485): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(486): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(487): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(488): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 1);
+../Core/Src/main.c(490): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(493): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(495): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(496): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(497): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(498): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(500): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(503): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(505): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(506): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 1);
+../Core/Src/main.c(507): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(508): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(510): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(513): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(515): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(516): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(517): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(518): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(520): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(523): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(525): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 1);
+../Core/Src/main.c(526): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 1);
+../Core/Src/main.c(527): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(528): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 1);
+../Core/Src/main.c(530): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(533): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, RS, 1);
+../Core/Src/main.c(548): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, RS, 0);
+../Core/Src/main.c(550): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(552): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB7, 1);
+../Core/Src/main.c(553): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(554): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(555): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(557): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(560): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(562): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(563): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(564): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(565): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(567): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(571): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(573): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB7, 1);
+../Core/Src/main.c(574): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB6, 1);
+../Core/Src/main.c(575): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(576): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(578): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(581): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(583): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(584): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(585): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(586): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(588): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(591): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, RS, 1);
+../Core/Src/main.c(607): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, RS, 1);
+../Core/Src/main.c(609): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(612): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB7, 1);
+../Core/Src/main.c(615): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(618): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB6, 1);
+../Core/Src/main.c(621): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(624): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(627): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(630): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB4, 1);
+../Core/Src/main.c(633): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(636): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(639): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(642): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB7, 1);
+../Core/Src/main.c(645): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(648): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB6, 1);
+../Core/Src/main.c(651): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(654): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB5, 1);
+../Core/Src/main.c(657): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(660): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB4, 1);
+../Core/Src/main.c(663): warning:  #188-D: enumerated type mixed with another type
+  			HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(666): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(669): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, RS, 0);
+../Core/Src/main.c(724): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, RS, 0);
+../Core/Src/main.c(726): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(728): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(729): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(730): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(731): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 0);
+../Core/Src/main.c(733): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(736): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 1);
+../Core/Src/main.c(738): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB7, 0);
+../Core/Src/main.c(739): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB6, 0);
+../Core/Src/main.c(740): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB5, 0);
+../Core/Src/main.c(741): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, DB4, 1);
+../Core/Src/main.c(743): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, EN, 0);
+../Core/Src/main.c(745): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, RS, 1);
+../Core/Src/main.c: 150 warnings, 0 errors
+linking...
+Program Size: Code=12060 RO-data=628 RW-data=48 ZI-data=1256  
+FromELF: creating hex file...
+"STM32F429ZI UART\STM32F429ZI UART.axf" - 0 Error(s), 150 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F429ZI_UART
+  C:\Users\hoahu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\hoahu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
