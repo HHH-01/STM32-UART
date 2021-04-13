@@ -15,12 +15,12 @@
 2. STM32F429ZI 
 * UART: TX = PC6 | RX = PC7 [Baud rate of 9600bs, Word length of 8b]
 * Display the temperature via LCD:
-######  RS	PD1
-######  EN	PD7
-###### DB4	PD6
-###### DB5	PD5
-###### DB6	PD4
-###### DB7	PD3
+* + RS	PD1
+* + EN	PD7
+* + DB4	PD6
+* + DB5	PD5
+* + DB6	PD4
+* + DB7	PD3
 		
 ## Component
 1. STM Nucleo STM32F429ZI
@@ -29,6 +29,8 @@
 4. LCD HC16102
 
 ## Picture for reference
+Ignore my STM32 and PIR in the circuit.
+
 ![STM32CubeMX](https://github.com/HHH-01/STM32-UART/blob/1eaeda5f7e291fc096ddba685d724d1e20f56898/Images/STM32F401RET.PNG)
 ![STM32CubeMX](https://github.com/HHH-01/STM32-UART/blob/1eaeda5f7e291fc096ddba685d724d1e20f56898/Images/STM32F429ZIT.PNG)
 
