@@ -15,7 +15,7 @@
 2. STM32F429ZI 
 * UART: TX = PC6 | RX = PC7 [Baud rate of 9600bs, Word length of 8b]
 * Display the temperature via LCD:
-* + RS	PD1
+ ++ RS	PD1
 * + EN	PD7
 * + DB4	PD6
 * + DB5	PD5
