@@ -28,7 +28,7 @@
 3. Temperature MCP9700A
 4. LCD HC16102
 
-## Picture for reference
+## Images
 Ignore my STM32 and PIR in the circuit.
 
 ![STM32CubeMX](https://github.com/HHH-01/STM32-UART/blob/1eaeda5f7e291fc096ddba685d724d1e20f56898/Images/STM32F401RET.PNG)
