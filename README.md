@@ -16,11 +16,11 @@
 * UART: TX = PC6 | RX = PC7 [Baud rate of 9600bs, Word length of 8b]
 * Display the temperature via LCD:
 ######  RS	PD1
-*  EN	PD7
-* DB4	PD6
-* DB5	PD5
-* DB6	PD4
-* DB7	PD3
+######  EN	PD7
+###### DB4	PD6
+###### DB5	PD5
+###### DB6	PD4
+###### DB7	PD3
 		
 ## Component
 1. STM Nucleo STM32F429ZI
@@ -29,8 +29,9 @@
 4. LCD HC16102
 
 ## Picture for reference
-![STM32CubeMX](https://github.com/HHH-01/STM32/blob/f028fc426ff353cd08ee4fa8f19110355a3476b8/Images/STM32CubeMx.PNG)
+![STM32CubeMX](https://github.com/HHH-01/STM32-UART/blob/1eaeda5f7e291fc096ddba685d724d1e20f56898/Images/STM32F401RET.PNG)
+![STM32CubeMX](https://github.com/HHH-01/STM32-UART/blob/1eaeda5f7e291fc096ddba685d724d1e20f56898/Images/STM32F429ZIT.PNG)
 
-![Circuit Set up](https://github.com/HHH-01/STM32/blob/f028fc426ff353cd08ee4fa8f19110355a3476b8/Images/Circuit.jpg)
-
-![Debugging Window](https://github.com/HHH-01/STM32/blob/63101e5e8e58ca9a7d79cf8a742d6c34a3291a6b/Images/DebuggingWindow.PNG)
+![Circuit Set up1](https://github.com/HHH-01/STM32-UART/blob/1eaeda5f7e291fc096ddba685d724d1e20f56898/Images/Circuit%20Setup1.jpg)
+![Circuit Set up2](https://github.com/HHH-01/STM32-UART/blob/1eaeda5f7e291fc096ddba685d724d1e20f56898/Images/CircuitSetup2.jpg)
+![Circuit Set up3](https://github.com/HHH-01/STM32-UART/blob/1eaeda5f7e291fc096ddba685d724d1e20f56898/Images/CircuitSetup3.jpg)
